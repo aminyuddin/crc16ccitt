@@ -33,7 +33,7 @@ public class CRC16CCITT {
         }
 
         crc &= 0xffff;
-        StdOut.println("CRC16-CCITT = " + Integer.toHexString(crc));
+        System.out.println("CRC16-CCITT = " + Integer.toHexString(crc));
     }
 
 }
